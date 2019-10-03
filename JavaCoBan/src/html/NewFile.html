@@ -1,0 +1,130 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft Visual Studio">
+<TITLE> ĐĂNG KÍ </TITLE>
+<P align="center"> ĐĂNG KÍ </P>
+</HEAD>
+<style>
+    body{
+        background-color:aqua;
+    }
+</style>
+<BODY>
+    <table align="center">
+        <tr>
+            <div align="left"><i> trường bắt buộc*</i></div>
+            <td></td>
+            <td>
+                <input type="radio" name="gender" id="register_gendermale" value="cá nhân" />
+                <label for="register_gendermale"> cá nhân</label>
+                <input type="radio" name="gender" id="register_genderfemale" value="công ty/ tổ chức" />
+                <label for="register_genderfemale"> công ty / tổ chức </label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p> Họ Và Tên</p>
+            </td>
+            <td>
+                <form>
+                    <input type="text" formmethod="post" name="Họ và Tên">
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Số điện thoại</p>
+            </td>
+            <td>
+                <form>
+                    <input type="number" formmethod="post" name="phonenumber" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p> Ngày Sinh </p>
+            </td>
+            <td>
+                <form>
+                    <input type="datetime" formmethod="post" name="date" />
+                </form>
+
+            </td>
+        <tr>
+            <td>
+                <p> Địa Chỉ </p>
+            </td>
+            <td>
+                <form>
+                    <input type="text" formmethod="post" name="address">
+                </form>
+            </td>
+            <td>
+                <form>
+                    <input type="radio" formmethod="post" name="address"> TP.HCM
+                    <select>
+                        <option> Quận 1 </option>
+                        <option> Quận 2 </option>
+                        <option> Quận 3 </option>
+
+                    </select>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td>
+                <input type="radio" name="chontinh">Tỉnh thành khác
+                <input type="search" name="chontinh" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p> Giới Tính </p>
+            </td>
+            <td>
+                <formset>
+                    <input type="radio" formmethod="post" name="sex" />
+                    <label> Nam </label>
+                    <input type="radio" formmethod="post" name="sex" />
+                    <label> Nữ</label>
+                </formset>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p> Email </p>
+            </td>
+            <td>
+                <form>
+                    <input type="email" formmethod="post" name="email" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p> Password </p>
+            </td>
+            <td>
+                <form>
+                    <input type="password" formmethod="post" name="password" />
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p> ResetPassword</p>
+            </td>
+            <td>
+                <form>
+                    <input type="password" formmethod="post" name="resetpassword" />
+                </form>
+            </td>
+        </tr>
+    </table>
+
+
+</BODY>
+</HTML>
